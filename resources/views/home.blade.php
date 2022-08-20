@@ -176,7 +176,7 @@
                                         Phone : {{ Auth::user()->phone }}
                                     </p>
 
-                                    <a href="edit_profile.html" class="btn btn-outline-success">Home</a>
+                                    <a href="{{ route('home') }}" class="btn btn-outline-success">Home</a>
                                     <a href="{{ route('admin') }}" class="btn btn-outline-primary">Product Managment</a>
                                 </div>
                             </div>
